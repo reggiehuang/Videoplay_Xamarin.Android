@@ -1,0 +1,5 @@
+drawable/psts_background_tab.xml;drawable/psts_background_tab.xml
+layout/psts_tab.axml;layout/psts_tab.xml
+values/attrs.xml;values/attrs.xml
+values/colors.xml;values/colors.xml
+drawable-v21/psts_background_tab.xml;drawable-v21/psts_background_tab.xml

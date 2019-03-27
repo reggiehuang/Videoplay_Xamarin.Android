@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          android:versionCode="1" 
+          android:versionName="1.0" 
+          package="VideoPlayerDemo.VideoPlayerDemo" 
+          android:installLocation="auto"
+         >
+	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="27" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<application android:allowBackup="true" 
+               android:icon="@mipmap/ic_launcher" 
+               android:label="@string/app_name" 
+               android:roundIcon="@mipmap/ic_launcher_round" 
+               android:supportsRtl="true" android:theme="@style/AppTheme">
+    <activety
+       android:name="RxAppCompatActivity"
+       android:configChanges="keyboardHidden|orientation|screenSize">
+    </activety>
+    <activety
+       android:name="RxBaseActivity"
+       android:configChanges="keyboardHidden|orientation|screenSize">
+    </activety>
+    <activety
+        android:name="VideoPlayerActivity"
+        android:configChanges="keyboardHidden|orientation|screenSize">
+    </activety>
+  </application>
+  
+</manifest>
